@@ -1,0 +1,194 @@
+/* ================================================================================================================== */
+/* PALETTE                                                                                                             */
+/* ================================================================================================================== */
+
+.nx-primary {
+    background-color: rgba(36, 123, 160, 1);
+}
+
+.nx-accent {
+    background-color: rgba(237, 174, 73, 1);
+}
+
+.nx-warn {
+    background-color: rgba(209, 72, 91, 1);
+}
+
+.nx-darkviolet {
+    background-color: #673ab7;
+}
+
+.nx-gray1 {
+    background-color: #607d8b;
+}
+
+.nx-red {
+    background-color: red;
+}
+
+.nx-orange {
+    background-color: darkorange;
+}
+
+.nx-violet {
+    background-color: violet;
+}
+
+.nx-brown {
+    background-color: brown;
+}
+
+.nx-dark {
+    background-color: rgba(33, 37, 41, 1);
+}
+
+.nx-light {
+    background-color: rgba(251, 251, 251, 1);
+}
+
+.nx-green {
+    background-color: rgba(36, 160, 46, 1);
+}
+
+.nx-blue {
+    background-color: #3f51b5;
+}
+
+.nx-dark-blue {
+    background-color: #3f51b5;
+}
+
+.nx-primary--important {
+    background-color: rgba(36, 123, 160, 1) !important;
+}
+
+.nx-blue--important {
+    background-color: #3f51b5 !important;
+}
+
+.nx-accent--important {
+    background-color: rgba(237, 174, 73, 1) !important;
+}
+
+.nx-warn--important {
+    background-color: rgba(209, 72, 91, 1) !important;
+}
+
+.nx-dark--important {
+    background-color: rgba(33, 37, 41, 1) !important;
+}
+
+.nx-green--important {
+    background-color: rgba(36, 160, 46, 1) !important;
+}
+
+.nx-light--important {
+    background-color: rgba(251, 251, 251, 1) !important;
+}
+
+.nx-dark-blue--important {
+    background-color: #3f51b5 !important;
+}
+
+.nx-dark-blue-text {
+    color: #3f51b5;
+}
+
+.nx-primary-text {
+    color: rgba(36, 123, 160, 1);
+}
+
+.nx-primary-text-not-th:not(th) {
+    color: rgba(36, 123, 160, 1);
+}
+
+.nx-green-text {
+    color: rgba(36, 160, 46, 1);
+}
+
+.nx-accent-text {
+    color: rgba(237, 174, 73, 1);
+}
+
+.nx-warn-text {
+    color: rgba(209, 72, 91, 1);
+}
+
+.nx-dark-text {
+    color: rgba(33, 37, 41, 1);
+}
+
+.nx-light-text {
+    color: rgba(251, 251, 251, 1);
+}
+
+.nx-green-text {
+    color: rgba(36, 160, 46, 1);
+}
+
+.nx-grey-text {
+    color: rgb(181, 181, 181);
+}
+
+.nx-orange-text {
+    color: darkorange;
+}
+
+.nx-blue-text {
+    color: #3f51b5;
+}
+
+.nx-dark-blue-text--important {
+    color: #3f51b5 !important;
+}
+
+.nx-primary-text--important {
+    color: rgba(36, 123, 160, 1) !important;
+}
+
+.nx-accent-text--important {
+    color: rgba(237, 174, 73, 1) !important;
+}
+
+.nx-warn-text--important {
+    color: rgba(209, 72, 91, 1) !important;
+}
+
+.nx-dark-text--important {
+    color: rgba(33, 37, 41, 1) !important;
+}
+
+.nx-light-text--important {
+    color: rgba(251, 251, 251, 1) !important;
+}
+
+.nx-green-text--important {
+    color: rgba(36, 160, 46, 1) !important;
+}
+
+.nx-blue-text--important {
+    color: #3f51b5 !important;
+}
+
+.nx-border-left-dark {
+    border-left: 2px solid rgba(33, 37, 41, 1);
+}
+
+.nx-violet-text--important {
+    color: #9C27B0 !important;
+}
+
+.blink_warn {
+    animation: blinker 1s linear infinite;
+    color: #d1485b !important;
+    font-weight: 700;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+

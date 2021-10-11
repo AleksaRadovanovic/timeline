@@ -1,0 +1,113 @@
+/* ================================================================================================================== */
+/* NAVBAR                                                                                                             */
+/* ================================================================================================================== */
+
+#nx-nav-container {
+    margin-left: 63px; /* la larghezza del menù chiuso */
+}
+
+.nx-nav-location {
+    height: 64px; /* Stessa altezza della navbar di materialize */
+    line-height: normal;
+    padding-left: 24px !important;
+}
+
+.nx-nav-title {
+    height: 40px;
+    line-height: 46px; /* Vogliamo che il testo sia leggermente più basso rispetto alla metà della riga */
+    font-size: 24px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: bold;
+    color: rgba(237, 174, 73, 1);
+}
+
+.nx-nav-breadcrumbs {
+    height: 24px;
+    line-height: normal;
+    margin-left: 1px; /* Per allinearlo al titolo. Non so perchè servi questo hack */
+}
+
+#nx-nav-welcome {
+    display: none;
+}
+
+/* Mostriamo il messaggio di benvenuto solo se non ci sono breadcrumbs */
+#nx-nav-welcome:only-child {
+    display: inline-block;
+}
+
+#nx-nav-welcome-username {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nx-nav-breadcrumbs .nx-nav-breadcrumb,
+.nx-nav-breadcrumbs .nx-nav-breadcrumb::before {
+    font-size: 14px;
+}
+
+.nx-nav-breadcrumbs .nx-nav-breadcrumb::before {
+    margin: 0 3px;
+    vertical-align: middle;
+}
+
+/*
+Fix rispetto a materializecss che controlla solo i "first-child"
+Noi potremmo avere però dei first-child che non siano dei breadcrumb.
+    Senza Fix:
+        > Primo > Secondo > Terzo
+    Con il Fix:
+        Primo > Secondo > Terzo
+*/
+.nx-nav-breadcrumb:first-of-type::before {
+    display: none;
+}
+
+.nx-nav-breadcrumbs .nx-nav-breadcrumb--bootstrap-fix {
+    padding: 0;
+    margin: 0;
+    background: initial;
+    border-radius: 0;
+    list-style: none;
+}
+
+.nx-nav-actions-divider {
+    width: 1px;
+    height: 78%;
+    transform: translateY(15%);
+    background-color: #636363; /* Dovrebbe essere una sfumatura del colore della navbar */
+    display: inline-block;
+}
+
+.nx-nav-action {
+    position: relative;
+}
+
+.nx-nav-action-text {
+    position: absolute;
+    bottom: 5px;
+    left: 3px;
+    right: 3px;
+    color: white;
+    text-align: center;
+    line-height: normal;
+    font-size: 9px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sidenav-disabled-hover {
+    width: 63px !important;
+}
+.sidenav-translate-x-zero {
+    transform: translateX(0px) !important;
+}
+.sidenav-translate-xy-value {
+    transform: translate(20px,-38px) !important;
+}
+.sidenav-opacity-zero {
+    opacity: 0 !important;
+}

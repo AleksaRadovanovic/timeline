@@ -1,0 +1,222 @@
+/* ================================================================================================================== */
+/* MARGIN                                                                                                             */
+/* ================================================================================================================== */
+
+.nx-margin {
+    margin: 16px !important;
+}
+
+.nx-margin-left {
+    margin-left: 16px !important;
+}
+
+.nx-margin-top {
+    margin-top: 16px !important;
+}
+
+.nx-margin-right {
+    margin-right: 16px !important;
+}
+
+.nx-margin-bottom {
+    margin-bottom: 16px !important;
+}
+
+.nx-margin--small {
+    margin: 8px !important;
+}
+
+.nx-margin-left--small {
+    margin-left: 8px !important;
+}
+
+.nx-margin-top--small {
+    margin-top: 8px !important;
+}
+
+.nx-margin-top--6 {
+    margin-top: 6px !important;
+}
+
+.nx-margin-top--medium {
+    margin-top: 18px !important;
+}
+
+.nx-margin-right--small {
+    margin-right: 8px !important;
+}
+
+.nx-margin-bottom--small {
+    margin-bottom: 8px !important;
+}
+
+.nx-margin--big {
+    margin: 24px !important;
+}
+
+.nx-margin-left--big {
+    margin-left: 24px !important;
+}
+
+.nx-margin-top--big {
+    margin-top: 24px !important;
+}
+
+.nx-margin-right--big {
+    margin-right: 24px !important;
+}
+
+.nx-margin-bottom--big {
+    margin-bottom: 24px !important;
+}
+
+.nx-margin--ultra--big {
+    margin: 100px !important;
+}
+
+.nx-margin-left--ultra--big {
+    margin-left: 100px !important;
+}
+
+.nx-margin-top--ultra--big {
+    margin-top: 100px !important;
+}
+
+.nx-margin-right--ultra--big {
+    margin-right: 100px !important;
+}
+
+.nx-margin-bottom--ultra--big {
+    margin-bottom: 100px !important;
+}
+
+.nx-margin-top--bigBox {
+    margin-top: 50px !important;
+}
+
+.nx-no-margin {
+    margin: 0 !important;
+}
+
+.nx-no-margin-left {
+    margin-left: 0 !important;
+}
+
+.nx-no-margin-top {
+    margin-top: 0 !important;
+}
+
+.nx-no-margin-right {
+    margin-right: 0 !important;
+}
+
+.nx-no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+
+.nx-margin-left--40 {
+    margin-left: 40%;
+}
+
+.nx-margin-top--40 {
+    margin-top: 40px !important;
+}
+
+/* ================================================================================================================== */
+/* PADDING                                                                                                            */
+/* ================================================================================================================== */
+
+.nx-padding-left--intermediate {
+    padding-left: 11px !important;
+}
+
+.nx-padding-right--intermediate {
+    padding-right: 11px !important;
+}
+
+.nx-padding {
+    padding: 16px !important;
+}
+
+.nx-padding-left {
+    padding-left: 16px !important;
+}
+
+.nx-padding-top {
+    padding-top: 16px !important;
+}
+
+.nx-padding-right {
+    padding-right: 16px !important;
+}
+
+.nx-padding-bottom {
+    padding-bottom: 16px !important;
+}
+
+.nx-padding--small {
+    padding: 8px !important;
+}
+
+.nx-padding-left--small {
+    padding-left: 8px !important;
+}
+
+.nx-padding-top--small {
+    padding-top: 8px !important;
+}
+
+.nx-padding-right--small {
+    padding-right: 8px !important;
+}
+
+.nx-padding-bottom--small {
+    padding-bottom: 8px !important;
+}
+
+.nx-padding--extra-big {
+    padding: 50px !important;
+}
+
+.nx-padding-left--big {
+    padding-left: 24px !important;
+}
+
+.nx-padding-top--big {
+    padding-top: 24px !important;
+}
+
+.nx-padding-right--big {
+    padding-right: 24px !important;
+}
+
+.nx-padding-bottom--big {
+    padding-bottom: 24px !important;
+}
+
+.nx-no-padding {
+    padding: 0 !important;
+}
+
+.nx-no-padding-left {
+    padding-left: 0 !important;
+}
+
+.nx-no-padding-top {
+    padding-top: 0 !important;
+}
+
+.nx-no-padding-right {
+    padding-right: 0 !important;
+}
+
+.nx-no-padding-bottom {
+    padding-bottom: 0 !important;
+}
+
+/* ================================================================================================================== */
+/* LINE HEIGHT                                                                                                            */
+/* ================================================================================================================== */
+.nx-line-height-06 {
+    line-height: 0.6 !important;
+}

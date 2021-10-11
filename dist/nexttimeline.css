@@ -1,0 +1,237 @@
+body {
+  background-color: #f9f9f9;
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dbdbdb;
+  border-radius: 25px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #868585;
+}
+.frame {
+  border: 0px solid red;
+}
+.bframe {
+  border: 1px solid blue;
+}
+p {
+  margin: 0px;
+  word-break: break-all;
+}
+.margin_padding_0 {
+  margin: 0px;
+  padding: 0px;
+}
+.nx-timeline-first-column {
+  font-size: 14px;
+  border-collapse: collapse;
+  position: sticky;
+  left: 0;
+  top: 0;
+  background-color: white;
+  border-right: 1px solid #e5dfdf;
+  z-index: 5000;
+  text-align: center;
+  vertical-align: middle;
+}
+.nx-timeline-footer-content {
+  margin: 0;
+  padding-top: 15px;
+  display: flex;
+}
+.nx-timeline-footer-actions {
+  display: flex;
+}
+.nx-timeline-action-button {
+  margin-right: 20px;
+  float: right;
+  cursor: pointer;
+}
+.nx-timeline-arrow-container {
+  position: absolute;
+}
+.nx-timeline-arrows-container {
+  height: 22px;
+}
+.nx-timeline-arrow {
+  font-size: 23px !important;
+}
+.nx-timeline-container {
+  overflow-x: auto;
+  overflow-y: auto;
+  height: 300px;
+  color: #758184;
+  margin: 0px;
+  padding: 0px;
+}
+.nx-timeline-main-body {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+}
+.nx-timeline-main-row {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #e5dfdf;
+  min-height: 100px;
+  height: fit-content;
+  flex-direction: row;
+}
+.nx-timeline-basic-elem {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  flex-direction: column;
+}
+.nx-timeline-basic-elem-row {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  flex-direction: row;
+}
+.nx-timeline-main-row:hover {
+  background-color: #d9eeec;
+  transition: 0.8s;
+  color: #4c8da7 !important;
+}
+.nx-timetick-hour {
+  color: #81888a;
+  font-weight: 400;
+}
+.nx-timeline-main-col {
+  display: flex;
+  flex-direction: col;
+}
+.nx-timeline-bar {
+  border-radius: 3px;
+  font-size: 14px;
+  z-index: 2000;
+  color: white;
+  min-width: 20px;
+  background-color: #2f416d;
+  white-space: normal;
+  height: fit-content;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+  transition: 0.6s;
+  min-height: 10px;
+  cursor: pointer;
+}
+.nx-timeline-top-labels {
+  display: flex;
+  justify-content: center;
+}
+.nx-timeline-centered-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nx-timeticks-container {
+  position: absolute;
+  border-bottom: 1px solid rgba(86, 86, 86, 0.21);
+  box-shadow: 0px 5px 13px -15px #111;
+  border-top-left-radius: 10px;
+  z-index: 4000;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.nx-timeticks-row {
+  width: 100%;
+  /*position: relative;*/
+}
+.nx-timeline-labels {
+  font-weight: 500;
+  z-index: 3000;
+  position: sticky;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid #e5dfdf;
+  box-shadow: 9px 0px 8px -15px #111;
+}
+.nx-current-date {
+  color: #dbff4d;
+  font-weight: 500;
+  font-size: 13px;
+  background-color: #6199af;
+  padding: 6px;
+  border-radius: 5px;
+  text-align: center;
+  width: 122px !important;
+}
+.nx-timeline-header-container {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom: 1px solid rgba(86, 86, 86, 0.21);
+}
+.nx-timeline-link {
+  color: #ffac41;
+  text-decoration: underline;
+}
+.nx-timeline-elem-labels {
+  height: fit-content;
+  border: 1px solid rgba(87, 2, 108, 0.29019608);
+  border-style: dashed;
+  text-align: center;
+  color: white;
+  font-weight: 300 !important;
+  font-size: 13px;
+  border-radius: 5px;
+  border-radius: 5%;
+  box-shadow: 0px 1px 4px #666;
+  position: relative;
+  z-index: 100000000 !important;
+}
+.nx-timeline-bottom-labels {
+  font-weight: 300;
+}
+.nx-timeline-bottom-container {
+  border-top: 1px solid #e5dfdf;
+}
+/*month and day animation*/
+@keyframes fadeAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*.nx-calendar-animated-cell{
+    animation-name: fadeAnimation;
+    animation-duration: 300ms;
+    animation-iteration-count: 1;
+}*/
+.no_timeline_selection {
+  -webkit-user-select: none;
+  /* webkit (safari, chrome) browsers */
+  -moz-user-select: none;
+  /* mozilla browsers */
+  -khtml-user-select: none;
+  /* webkit (konqueror) browsers */
+  -ms-user-select: none;
+  /* IE10+ */
+}
+

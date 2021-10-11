@@ -1,0 +1,278 @@
+/* Tabella                                                                                                            */
+/* ------------------------------------------------------------------------------------------------------------------ */
+.nxTable.card-content,
+.nx-detail-tabled.card-content {
+    padding: 0;
+}
+
+.nxTable table.dataTable thead th,
+.nxTable table.dataTable tfoot th,
+.nx-detail-tabled table.dataTable thead th,
+.nx-detail-tabled table.dataTable tfoot th {
+    border-bottom: 1.5px solid #dcdcdc
+}
+
+.nxTable table.dataTable tr:last-child td {
+    /*border-bottom: 1px solid #e6e6e6*/
+}
+
+.nxTable table.dataTable thead th,
+.nxTable table.striped tfoot th,
+.nxTable table.dataTable td,
+.nxTable table.striped td {
+    padding: 10px 4px;
+    /*font-size: 12px;*/
+}
+
+.nxtable table.dataTable thead th {
+    padding-bottom: 7px;
+    padding-top: 25px;
+    font-size: 12px;
+}
+
+table.dataTable.display tbody > tr.even.selected > .sorting_1, table.dataTable.order-column.stripe tbody > tr.even.selected > .sorting_1 {
+
+    background-color: rgba(237, 255, 0, 0) !important;
+}
+
+/* La riga selezionata */
+.nxTable table.dataTable tbody > tr.selected,
+.nxTable table.dataTable tbody > tr > .selected,
+.nx-detail-tabled table.dataTable tbody > tr.selected,
+.nx-detail-tabled table.dataTable tbody > tr > .selected {
+    /*background-color: rgba(36, 123, 160, 1) !important; !* colore primary della palette *!*/
+    background-color: rgba(241, 200, 44, 0.62) !important;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+table.dataTable.display tbody > tr.odd.selected > .sorting_1, table.dataTable.order-column.stripe tbody > tr.odd.selected > .sorting_1 {
+    background-color: rgba(241, 200, 44, 0) !important;
+}
+
+div.DTS div.dataTables_scrollBody {
+    background: white;
+}
+
+div.DTS tbody td {
+    white-space: normal;
+}
+
+.nxTable table.dataTable tbody > tr.even.selected,
+.nxTable table.dataTable tbody > tr.even > .selected,
+.nx-detail-tabled table.dataTable tbody > tr.even.selected,
+.nx-detail-tabled table.dataTable tbody > tr.even > .selected {
+
+    /*background-color: rgba(36, 123, 160, 0.9) !important; !* colore primary della palette *!*/
+    color: black;
+    background-color: rgba(237, 255, 0, 0.41) !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+table.dataTable span.highlight {
+    background-color: #ff01016e !important;
+    border-radius: 0 !important;
+}
+
+.nxTable tbody tr {
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.nxTable-row-warning {
+    color: brown;
+    font-weight: bold;
+}
+
+.nxTable-use-other-operative {
+    color: blue;
+    font-weight: bold;
+}
+
+.nxTable table.dataTable tbody > tr.nxTable-row-NotWellFormed {
+
+    background-color: brown !important;
+    color: white;
+}
+
+.nxTable table.dataTable tbody > tr.nxTable-row-NotWellFormed:hover {
+    background-color: #a01c0c !important;
+}
+
+/*.nxTable table.dataTable tbody > tr:hover, .nxTable table.dataTable tbody > tr.even:hover .nxTable-row-NotWellFormed:hover {*/
+/*background-color: #a52a2abd !important;*/
+/*}*/
+
+.nxTable table.dataTable tbody > tr:hover,
+.nxTable table.dataTable tbody > tr.even:hover {
+    /*background-color: rgba(0, 0, 0, 0.2) !important;*/
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nxTable table.dataTable tbody > tr.selected:hover,
+.nxTable table.dataTable tbody > tr.even.selected:hover {
+    /*background-color: rgba(36, 123, 160, 0.8) !important;*/
+    background-color: rgba(241, 200, 44, 0.62) !important;
+}
+
+/* Informazione sulla tabella                                                                                         */
+/* ------------------------------------------------------------------------------------------------------------------ */
+.nxTable .dataTables_info {
+    padding-top: 0 !important;
+    margin: 8px;
+    font-size: 12px;
+    /*color: gray;*/
+    color: #212529;
+}
+
+/* Paginazione della tabella                                                                                          */
+/* ------------------------------------------------------------------------------------------------------------------ */
+.nxTable .pagination,
+.nx-detail-tabled .pagination {
+    float: right;
+    margin: 5px 16px 8px 16px !important
+}
+
+.nxTable .pagination .paginate_button,
+.nx-detail-tabled .pagination .paginate_button {
+    background-color: transparent;
+    height: auto;
+}
+
+/* Bottoni della paginazione, come "prec", "succ" e i vari numeri delle pagine */
+.nxTable .pagination .paginate_button > a,
+.nx-detail-tabled .pagination .paginate_button > a {
+    cursor: pointer;
+    font-size: 12px;
+    border: none;
+    color: gray;
+    background-color: transparent;
+    border-radius: 0;
+    line-height: normal;
+    padding: 8px 4px;
+}
+
+.nxTable .pagination .paginate_button.active > a,
+.nx-detail-tabled .pagination .paginate_button.active > a {
+    color: black;
+    font-weight: 500;
+}
+
+.nxTable .pagination .paginate_button > a:hover,
+.nx-detail-tabled .pagination .paginate_button > a:hover {
+    color: black;
+    background-color: #ececec;
+}
+
+/*.nxtable .pagination > .active > a,*/
+/*.nxtable .pagination > li > a:focus,*/
+/*.nxtable .pagination > li > a:hover,*/
+/*.nxtable .pagination > li > span:focus,*/
+/*.nxtable .pagination > li > span:hover,*/
+/*.nx-detail-tabled .pagination > .active > a,*/
+/*.nx-detail-tabled .pagination > li > a:focus,*/
+/*.nx-detail-tabled .pagination > li > a:hover,*/
+/*.nx-detail-tabled .pagination > li > span:focus,*/
+/*.nx-detail-tabled .pagination > li > span:hover {*/
+/*color: #fff;*/
+/*background-color: #ececec;*/
+/*border-color: #ddd;*/
+/*}*/
+
+/* Colonna con la checkbox */
+/* ------------------------------------------------------------------------------------------------------------------ */
+.nxTable th.nx-table-select-col {
+    /*max-width: 0 !important;*/
+    /*padding-right: 0 !important;*/
+}
+
+.nxTable .nx-checkbox-cell,
+.nxTable td.nx-table-select-col {
+    position: relative;
+}
+
+.nxTable .nx-checkbox-cell::before,
+.nxTable .nx-checkbox-cell::after,
+.nxTable td.nx-table-select-col::before,
+.nxTable td.nx-table-select-col::after {
+    font-family: 'Material Icons', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 24px;
+    transition: all .3s ease;
+}
+
+.nxTable .nx-checkbox-cell::before,
+.nxTable td.nx-table-select-col::before {
+    content: 'check_box_outline_blank';
+    color: rgba(0, 0, 0, 0.6);
+    transform: translateY(-50%);
+}
+
+.nxTable .nx-checkbox-cell::after,
+.nxTable td.nx-table-select-col::after {
+    content: 'check_box';
+    color: rgba(237, 174, 73, 1); /* colore di accent della palette */
+    transform: translateY(-50%) scale(0);
+    opacity: 0;
+}
+
+.nxTable .nx-checkbox-cell--selected::before,
+.nxTable tr.selected td.nx-table-select-col::before {
+    opacity: 0;
+}
+
+.nxTable .nx-checkbox-cell--selected::after,
+.nxTable tr.selected td.nx-table-select-col::after {
+    opacity: 1;
+    transform: translateY(-50%) scale(1);
+}
+
+.nxTable .nx-checkbox-cell--disabled::before,
+.nxTable .nx-checkbox-cell--disabled::after {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.nxTable td.nx-table-uppercase {
+    text-transform: uppercase;
+}
+
+/* CUSTOM CELLS */
+/* ------------------------------------------------------------------------------------------------------------------ */
+.nxTable .nx-table-tag {
+    display: inline-block;
+    padding: 3px;
+    background-color: lightgrey;
+    margin: 3px;
+    white-space: nowrap;
+}
+
+/*.nxTable .nx-table-tag:not(:first-of-type) {*/
+/*margin-left: 6px;*/
+/*}*/
+
+/*Quando faccio tasto destro */
+.nxTable table.dataTable tbody > tr.nx-tr-select-table,
+.nxTable table.dataTable tbody > tr.even.nx-tr-select-table {
+    /*background-color: #a2a2a2 !important;*/
+    background-color: rgba(241, 200, 44, 0.62) !important;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nx-dimension-input-table {
+    width: 85% !important;
+    margin: 0 !important;
+    height: 16px !important;
+}
+
+.nxTable td.nx-table-truncate {
+    max-width: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
